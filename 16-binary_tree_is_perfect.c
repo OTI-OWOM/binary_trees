@@ -24,7 +24,7 @@ left = 1 + binary_tree_height(tree->left);
 if (tree->right)
 right = 1 + binary_tree_height(tree->right);
 /* Return the maximum height between left and right subtrees */
-if (left > right)						
+if (left > right)
 return (left);
 else
 return (right);
